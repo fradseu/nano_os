@@ -1,0 +1,1 @@
+/workspaces/nano_os/kernel/target/x86_64-unknown-none/debug/kernel: /workspaces/nano_os/kernel/src/framebuffer.rs /workspaces/nano_os/kernel/src/gdt.rs /workspaces/nano_os/kernel/src/main.rs /workspaces/nano_os/kernel/src/memmap.rs /workspaces/nano_os/kernel/src/pmm.rs /workspaces/nano_os/kernel/src/serial.rs

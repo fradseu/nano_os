@@ -1,0 +1,4 @@
+{
+    "rust-analyzer.check.command": "build",
+    "rust-analyzer.check.allTargets": false
+}

@@ -1,0 +1,16 @@
+[package]
+name = "kernel"
+version = "0.1.0"
+edition = "2024"
+
+
+[profile.dev]
+panic = "abort"
+
+#por que panic = "abort"? Em um kernel sem sistema operacional por baixo, não existe unwinding padrão de panic; o compilador exige definir o comportamento ao entrar em pânico.
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
+limine = "0.5"
